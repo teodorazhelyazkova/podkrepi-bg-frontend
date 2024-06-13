@@ -173,7 +173,10 @@
     "art": "Изкуство",
     "animals": "Животни",
     "nature": "Околна среда",
-    "others": "Други"
+    "others": "Други",
+    "searchKeyword": {
+      "placeholder": "Търси из \"Всички кампании\"..."
+    }
   },
   "donations": {
     "anonymous": "Анонимен",

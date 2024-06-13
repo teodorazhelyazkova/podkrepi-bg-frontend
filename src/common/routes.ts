@@ -90,7 +90,9 @@ export const routes = {
   },
   campaigns: {
     index: '/campaigns',
-    create: '/campaigns/create',
+    create: {
+      index: '/campaigns/create',
+    },
     viewCampaignBySlug: (slug: string) => `/campaigns/${slug}`,
     viewExpenses: (slug: string) => `/campaigns/${slug}/expenses`,
     oneTimeDonation: (slug: string) => `/campaigns/donation/${slug}`,
