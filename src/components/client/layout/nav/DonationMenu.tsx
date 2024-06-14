@@ -44,7 +44,7 @@ const allNavItems: NavItem[] = [
     label: 'nav.campaigns.news',
   },
   {
-    href: routes.campaigns.create, //temporarily lead to FAQ
+    href: routes.campaigns.create.index, //temporarily lead to FAQ
     label: 'nav.campaigns.create',
   },
 ]
